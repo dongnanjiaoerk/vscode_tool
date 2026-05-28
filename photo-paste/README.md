@@ -20,6 +20,14 @@ WeChat (Alt+A), QQ (Ctrl+Alt+A), Snipaste (F1), Windows Snipping Tool (Win+Shift
 
 ## Installation
 
+**From VSCode Marketplace** (recommended):
+
+Search **"Photo Paste"** in VSCode Extensions panel, or install from:
+
+[https://marketplace.visualstudio.com/items?itemName=dhj.photo-paste](https://marketplace.visualstudio.com/items?itemName=dhj.photo-paste)
+
+**From VSIX** (manual):
+
 1. Download `photo-paste-1.0.0.vsix` from the [Releases](https://github.com/dongnanjiaoerk/vscode_tool/releases/latest) page
 2. In VSCode: `Ctrl+Shift+P` → `Extensions: Install from VSIX...`
 3. Select the `.vsix` file

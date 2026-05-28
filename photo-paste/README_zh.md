@@ -20,7 +20,15 @@ Claude Code 的 VSCode 扩展不支持直接粘贴图片到聊天框（显示 `[
 
 ## 安装
 
-1. 从 [Releases](https://github.com/your/repo/releases) 下载 `photo-paste-1.0.0.vsix`
+**从 VSCode 市场安装**（推荐）：
+
+在 VSCode 扩展面板搜索 **"Photo Paste"**，或直接打开：
+
+[https://marketplace.visualstudio.com/items?itemName=dhj.photo-paste](https://marketplace.visualstudio.com/items?itemName=dhj.photo-paste)
+
+**从 VSIX 手动安装**：
+
+1. 从 [Releases](https://github.com/dongnanjiaoerk/vscode_tool/releases/latest) 下载 `photo-paste-1.0.0.vsix`
 2. VSCode 中 `Ctrl+Shift+P` → `Extensions: Install from VSIX...`
 3. 选择 `.vsix` 文件
 4. `Ctrl+Shift+P` → `Developer: Reload Window` 重新加载
