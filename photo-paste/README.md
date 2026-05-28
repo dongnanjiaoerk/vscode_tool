@@ -20,7 +20,7 @@ WeChat (`Alt+A`), QQ (`Ctrl+Alt+A`), Snipaste (`F1`), Windows Snipping Tool (`Wi
 
 ## Installation
 
-1. Download `photo-paste-1.0.0.vsix` from the [Releases](https://github.com/your/repo/releases) page
+1. Download `photo-paste-1.0.0.vsix` from the [Releases]([https://github.com/your/repo/releases](https://github.com/dongnanjiaoerk/vscode_tool/releases/latest)) page
 2. In VSCode: `Ctrl+Shift+P` → `Extensions: Install from VSIX...`
 3. Select the `.vsix` file
 4. `Ctrl+Shift+P` → `Developer: Reload Window`
