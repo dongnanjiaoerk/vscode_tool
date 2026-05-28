@@ -16,11 +16,11 @@ Claude Code's VSCode extension doesn't support pasting images directly into chat
 
 ## Works With Any Screenshot Tool
 
-WeChat (`Alt+A`), QQ (`Ctrl+Alt+A`), Snipaste (`F1`), Windows Snipping Tool (`Win+Shift+S`), Greenshot, ShareX — anything that puts an image on your system clipboard.
+WeChat (Alt+A), QQ (Ctrl+Alt+A), Snipaste (F1), Windows Snipping Tool (Win+Shift+S), Greenshot, ShareX — anything that puts an image on your system clipboard.
 
 ## Installation
 
-1. Download `photo-paste-1.0.0.vsix` from the [Releases](https://github.com/your/repo/releases) page
+1. Download `photo-paste-1.0.0.vsix` from the [Releases](https://github.com/dongnanjiaoerk/vscode_tool/releases/latest) page
 2. In VSCode: `Ctrl+Shift+P` → `Extensions: Install from VSIX...`
 3. Select the `.vsix` file
 4. `Ctrl+Shift+P` → `Developer: Reload Window`
