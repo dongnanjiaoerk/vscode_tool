@@ -3,7 +3,7 @@
   "displayName": "Photo Paste",
   "description": "Paste screenshots from clipboard into Claude Code chat",
   "version": "1.0.0",
-  "publisher": "local",
+  "publisher": "dhj",
   "engines": {
     "vscode": "^1.93.0"
   },
