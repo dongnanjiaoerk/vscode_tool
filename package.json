@@ -1,0 +1,58 @@
+{
+  "name": "photo-paste",
+  "displayName": "Photo Paste",
+  "description": "Paste screenshots from clipboard into Claude Code chat",
+  "version": "1.0.0",
+  "publisher": "local",
+  "engines": {
+    "vscode": "^1.93.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:photo-paste.paste"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "photo-paste.paste",
+        "title": "Paste Screenshot from Clipboard",
+        "category": "Photo Paste"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "photo-paste.paste",
+        "key": "ctrl+alt+v",
+        "mac": "cmd+alt+v"
+      }
+    ],
+    "configuration": {
+      "title": "Photo Paste",
+      "properties": {
+        "photoPaste.savePath": {
+          "type": "string",
+          "default": ".claude/screenshots",
+          "description": "Directory relative to workspace root to save screenshots. Falls back to OS temp dir if no workspace open."
+        },
+        "photoPaste.maxAgeDays": {
+          "type": "number",
+          "default": 7,
+          "description": "Auto-delete screenshots older than N days. Set to 0 to disable."
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "tsc -p ./",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.1",
+    "@types/vscode": "^1.93.0",
+    "typescript": "^6.0.3"
+  }
+}
